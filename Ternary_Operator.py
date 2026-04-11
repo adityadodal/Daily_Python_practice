@@ -11,20 +11,10 @@ Age = 21
 Status = "Welcome to the Party Enjoy!" if Age >= 18 else "Sorry, you are not allowed to enter the party."
 print(Status)
 
-# Party Form for Candidates
-candidates = []
 
-while True:
-    name = input("Enter candidate's name (or 'done' to finish): ")
-    if name.lower() == 'done':
-        break
-    status = input("Are they single or a couple? ").lower()
-    # Using ternary to standardize status
-    status = "single" if status in ["single", "s"] else "couple"
-    candidates.append({"name": name, "status": status})
-
-print("\nParty Candidates:")
-for candidate in candidates:
-    print(f"Name: {candidate['name']}, Status: {candidate['status']}")
-
-
+# Basic Party Form for a Candidate using Ternary Operator
+name = input("Enter candidate's name: ")
+status_input = input("Are they single or a couple? ").lower()
+# Using ternary to standardize status
+status = "single" if status_input in ["single", "s"] else "couple"
+print(f"Name: {name}, Status: {status}")

@@ -1,0 +1,6 @@
+message = "This is a string and also I love Python"
+print(message + " and I am learning it.")
+
+
+message = 'This is also a string and also I love Python'
+print(message + ' and I am learning it.')
