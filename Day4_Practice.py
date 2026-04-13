@@ -33,7 +33,8 @@ favorite_language.strip()
 
 print(favorite_language)
 
-
+# Here we have a url and we want to remove the http:// from the beginning of the url.
+#  We can use the removeprefix() method to remove a prefix from a string.
 nostarch_url = 'http://nostarch.com'
 nostarch_url = nostarch_url.removeprefix('http://')
 print(nostarch_url)
