@@ -4,3 +4,34 @@ print(message + " and I am learning it.")
 
 message = 'This is also a string and also I love Python'
 print(message + ' and I am learning it.')
+
+
+name = "ada"
+print(name.title())
+name = "ada"
+print(name.upper())
+name = "ADA"
+print(name.lower())
+first_name = "ada"
+last_name = "shelby"
+full_name = f"{first_name} {last_name}"
+print(full_name)
+first_name = "ada"
+last_name = "shelby"
+full_name = f"{first_name} {last_name}"
+print(full_name.title())
+first_name = "ada"
+last_name = "shelby"
+full_name = f"{first_name} {last_name}"
+print(full_name.upper())
+first_name = "ada"
+last_name = "shelby"
+full_name = f"{first_name} {last_name}"
+print(full_name.lower())
+
+# if you want to add a message to the name, you can do it like this:
+first_name = "ada"
+last_name = "shelby"
+full_name = f"{first_name} {last_name}"
+message = f"Hello, {full_name.title()}!"
+print(message)
