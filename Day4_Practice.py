@@ -38,3 +38,9 @@ print(favorite_language)
 nostarch_url = 'http://nostarch.com'
 nostarch_url = nostarch_url.removeprefix('http://')
 print(nostarch_url)
+
+
+# Next we will learn about the removesuffix() method, which removes a suffix from a string.
+# We can use this method to remove the .com from the end of the url.
+nostarch_url = nostarch_url.removesuffix('.com')
+print(nostarch_url)
