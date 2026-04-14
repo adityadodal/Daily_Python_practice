@@ -37,3 +37,32 @@ for i in range(5):
 # ***
 # ****
 # *****
+
+
+for i in range(n):
+    for j in range(i + 1):
+        print("*", end="")
+    print()
+# In this code, we can replace n with any positive integer to create a pattern of stars
+# For example, if we set n = 3, the output will be:
+# *
+# **
+# ***
+# We can also use nested for loops to create a multiplication table:
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(f"{i} x {j} = {i * j}")
+    print()
+# In this example, the outer for loop will iterate from 1 to 10 (i = 1 to 10)
+# and for each iteration of the outer loop, the inner loop will iterate from 1 to 10 (j = 1 to 10).
+# The output of this code will be a multiplication table from 1 to 10.
+# 1 x 1 = 1
+# 1 x 2 = 2
+# 1 x 3 = 3
+# ...
+# 10 x 8 = 80
+# 10 x 9 = 90
+# 10 x 10 = 100
+# Nested for loops are a powerful tool in Python and can be used to solve a variety of problems.
+# They allow us to iterate through multiple levels of data and create complex patterns and structures.
+# In the next section, we will learn about list comprehensions and how to use them in Python.
