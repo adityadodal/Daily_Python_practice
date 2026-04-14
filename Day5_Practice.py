@@ -39,7 +39,7 @@ for i in range(5):
 # *****
 
 
-for i in range(n):
+for i in range(10):
     for j in range(i + 1):
         print("*", end="")
     print()
@@ -66,3 +66,20 @@ for i in range(1, 11):
 # Nested for loops are a powerful tool in Python and can be used to solve a variety of problems.
 # They allow us to iterate through multiple levels of data and create complex patterns and structures.
 # In the next section, we will learn about list comprehensions and how to use them in Python.
+
+
+for i in range(10, 0, -1):
+    print(i)
+# In this code, the for loop will iterate from 10 to 1 (i = 10 to 1) in reverse order.
+# The output of this code will be:
+# 10
+# 9
+# 8
+# 7
+
+# 6
+# 5
+# 4
+# 3
+# 2
+# 1
