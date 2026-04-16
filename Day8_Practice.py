@@ -41,3 +41,12 @@ def testing3(first_name, last_name):
 
 
 print(testing3("Aditya", "Kumar"))
+
+
+# EXAMPLE 2
+def add(a, b):
+    return a + b
+
+
+result = add(10, 20)
+print(result)
