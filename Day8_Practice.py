@@ -50,3 +50,11 @@ def add(a, b):
 
 result = add(10, 20)
 print(result)
+
+
+def add_and_substract(a, b):
+    return a + b, a - b
+
+
+add_result, substract_result = add_and_substract(10, 20)
+print(f"Addition: {add_result}, Subtraction: {substract_result}")
