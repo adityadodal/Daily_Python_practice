@@ -32,3 +32,16 @@ def display_info(*args, **kwargs):
 
 
 display_info("Hello", "World", name="Alice", age=30)
+
+
+# You can also use *args and **kwargs when calling a function to unpack a list or dictionary of arguments
+def greet(name, age):
+    print(f"Hello, my name is {name} and I am {age} years old.")
+
+
+args = ["Alice", 30]
+greet(*args)
+kwargs = {"name": "Bob", "age": 25}
+greet(**kwargs)
+# In summary, *args and **kwargs are powerful tools in Python that allow you to create flexible functions that can accept a variable number of arguments.
+#  They are commonly used in situations where you don't know beforehand how many arguments will be passed to the function.
