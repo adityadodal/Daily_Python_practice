@@ -75,3 +75,32 @@ circle = Circle(5)
 rectangle = Rectangle(4, 6)
 print(circle.area())  # Output: 78.5
 print(rectangle.area())  # Output: 24
+
+
+# Polymorphism ek aisi concept hai jisme hum apne code ko is tarah se design karte hain ki ek hi method ya function alag alag tarah se behave kare.
+# Iska matlab hai ki hum apne code ko is tarah se likhte hain ki ek hi method ya function alag alag classes mein alag alag tarah se implement ho sake.
+# Polymorphism ko achieve karne ke liye hum method overriding aur method overloading ka use karte hain.
+# Method overriding ek aisi technique hai jisme child class apne parent class ke method ko override kar sakti hai, matlab apne tarah se implement kar sakti hai.
+# Method overloading ek aisi technique hai jisme hum ek hi method ko alag alag tarah se implement kar sakte hain, matlab ek hi method ke multiple versions bana sakte hain.
+# Polymorphism ko samajhne ke liye hum ek example dekhte hain.
+
+class Bird(ABC):
+    @abstractmethod
+    def fly(self):
+        pass
+
+
+class Sparrow(Bird):
+    def fly(self):
+        return "Sparrow can fly"
+
+
+class Penguin(Bird):
+    def fly(self):
+        return "Penguin cannot fly"
+
+
+sparrow = Sparrow()
+penguin = Penguin()
+print(sparrow.fly())  # Output: Sparrow can fly
+print(penguin.fly())  # Output: Penguin cannot fly
