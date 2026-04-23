@@ -84,3 +84,11 @@ cat1 = Cat()
 # Accessing the sound method of the objects
 print(dog1.sound())  # Output: Woof
 print(cat1.sound())  # Output: Meow
+
+
+# In this session we have learned about OOPS concepts in python and how to implement them using classes and objects.
+# We have also seen how to use inheritance and polymorphism in python.
+# OOPS is a powerful programming paradigm that allows us to create reusable and modular code.
+
+# In the next session we will learn about more advanced OOPS concepts like encapsulation and abstraction.
+# Stay tuned!
