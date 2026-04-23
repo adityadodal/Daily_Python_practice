@@ -92,3 +92,33 @@ print(cat1.sound())  # Output: Meow
 
 # In the next session we will learn about more advanced OOPS concepts like encapsulation and abstraction.
 # Stay tuned!
+git push origin main
+
+
+# Below are few impotant commands related to git and github
+# git init: Initializes a new git repository in the current directory.
+# git add: Adds files to the staging area, preparing them for a commit.
+# git commit: Commits the staged changes to the repository with a message describing the changes.
+# git push: Pushes the committed changes to a remote repository, such as GitHub.
+# git pull: Fetches and merges changes from a remote repository to the local repository.
+# git status: Shows the current status of the repository, including staged, unstaged, and
+# untracked files.
+# git log: Displays the commit history of the repository.
+# git branch: Lists all branches in the repository and indicates the current branch.
+# git checkout: Switches to a different branch or commit in the repository.
+# git merge: Merges changes from one branch into another branch.
+# git clone: Creates a copy of a remote repository on the local machine.
+# git remote: Manages the remote repositories associated with the local repository.
+# git fetch: Fetches changes from a remote repository without merging them into the local repository.
+# git reset: Resets the current HEAD to a specified state, allowing you to undo commits
+# git revert: Creates a new commit that undoes the changes made in a previous commit.
+# git stash: Temporarily saves changes that are not ready to be committed, allowing you to
+# switch branches or work on something else without losing your changes.
+# git tag: Creates a tag for a specific commit, often used to mark release points in the repository.
+
+# These are some of the most commonly used git commands, but there are many more available for various purposes.
+#  It's important to understand how to use these commands effectively
+# to manage your code and collaborate with others using git and GitHub.
+
+# In the next session we will learn about more advanced git commands and how to use them in real-world scenarios.
+# Stay tuned!
