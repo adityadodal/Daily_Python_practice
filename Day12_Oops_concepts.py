@@ -9,3 +9,29 @@
 # aur behtareen baat ye hai ki child class apne properties aur methods ko override kar sakti hai.
 # iska matlab hai ki child class apne properties aur methods ko
 # parent class ke properties aur methods se alag kar sakti hai.
+
+# let's see an example of inheritance in python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        return "I am an animal"
+
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+
+dog = Dog("Buddy")
+cat = Cat("Whiskers")
+print(dog.name)  # Output: Buddy
+print(dog.speak())  # Output: Woof!
+print(cat.name)  # Output: Whiskers
+print(cat.speak())  # Output: Meow!
