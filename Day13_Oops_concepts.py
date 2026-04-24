@@ -85,3 +85,26 @@ parent = Parent()
 child = Child()
 print(parent.greet())  # This will print "Hello from Parent"
 print(child.greet())   # This will print "Hello from Child"
+
+# Pratice question: Create a class called "Animal" with a method called "speak". Then create two child classes, "Dog" and "Cat", that inherit from the "Animal" class and override the "speak" method to return "Woof!" for the Dog class and "Meow!" for the Cat class. Finally, create instances of both classes and call their speak methods to see the output.
+
+
+class Animal:
+    def speak(self):
+        pass
+
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+
+dog = Dog()
+cat = Cat()
+print(dog.speak())  # This will print "Woof!"
+print(cat.speak())  # This will print "Meow!"
