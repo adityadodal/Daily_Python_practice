@@ -63,3 +63,25 @@ parent = Parent()
 child = Child()
 print(parent.greet())  # This will print "Hello from Parent"
 print(child.greet())   # This will print "Hello from Child"
+
+
+# method overriding ka example:
+
+# definition: method overriding ek concept hai jisme ek child class parent class ke method ko override kar sakti hai.
+#  Iska matlab hai ki aap ek child class ke object ke liye parent class ke method ko call kar sakte hain,
+#  aur child class ke method ko call kar sakte hain, aur dono methods apne hisab se behave karenge.
+
+class Parent:
+    def greet(self):
+        return "Hello from Parent"
+
+
+class Child(Parent):
+    def greet(self):
+        return "Hello from Child"
+
+
+parent = Parent()
+child = Child()
+print(parent.greet())  # This will print "Hello from Parent"
+print(child.greet())   # This will print "Hello from Child"
